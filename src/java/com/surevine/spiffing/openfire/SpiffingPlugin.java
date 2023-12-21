@@ -22,7 +22,7 @@ import java.util.*;
 /**
  * Created by dwd on 20/03/17.
  */
-public class NewPlugin extends AbstractACDF implements Plugin {
+public class SpiffingPlugin extends AbstractACDF implements Plugin {
     private static final Logger Log = LoggerFactory.getLogger(NewPlugin.class);
     private PluginManager pluginManager;
     private File pluginPath;
@@ -41,7 +41,7 @@ public class NewPlugin extends AbstractACDF implements Plugin {
     private CatalogueHandler catHandler0 = null;
     private CatalogueHandler catHandler2 = null;
 
-    public NewPlugin() {
+    public SpiffingPlugin() {
         super();
     }
 

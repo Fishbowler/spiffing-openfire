@@ -5,11 +5,11 @@
   live in the root of the plugin's directory.
 -->
 <plugin>
-    <class>com.surevine.spiffing.openfire.NewPlugin</class>
-    <name>Spiffing</name>
-    <description>Provides support for Security Labels (XEP-0258)</description>
+    <class>com.surevine.spiffing.openfire.SpiffingPlugin</class>
+    <name>${project.name}</name>
+    <description>${project.description}</description>
     <author>Dave Cridland // Surevine Ltd</author>
-    <version>0.0.2</version>
+    <version>${project.version}</version>
     <date>15/01/2016</date>
     <minServerVersion>4.0.0</minServerVersion>
 
